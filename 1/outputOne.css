@@ -1,0 +1,287 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 100vh;
+	width: 100vw;
+	background-image: url(covergirl.jpeg);
+	background-size: cover;
+	background-color: gray;
+	background-blend-mode: multiply;
+}
+
+.content{
+	height: 400px;
+	width: 800px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.text-1{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 100px;
+	color: goldenrod;
+	letter-spacing: 8px;
+
+}
+
+.btn{
+	padding: 15px;
+	background-color: white;
+	font-size: 14px;
+	letter-spacing: 4px;
+	border: 2px solid white;
+
+}
+
+.tx{
+	font-size: 30px;
+	color: white;
+	padding-bottom: 14px;
+	font-family: 'Promises Gisttela Script', sans-serif;
+
+}
+
+.name{
+	color: black;
+	padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+ul, li, a {
+
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	font-family: arial;
+	color: white;
+	padding-top: 25px;
+
+}
+
+nav{
+	float: right;
+	padding-right: 50px;
+}
+
+li{
+	transition: .5s;
+
+}
+
+ul:hover li{
+	filter: blur(5px);
+}
+
+ul li:hover{
+	filter: blur(0px);
+}
+
+.container_middle{
+	height: 600px;
+	width: 100vw;
+
+	display: flex;
+	grid-gap: 16px;
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: ghostwhite;
+}
+
+.box{
+
+	height: 360px;
+	width: 240px;
+}
+
+.pic_center{
+
+	height: 200px;
+	width: 240px;
+}
+
+.text2{
+
+	font-family: arial;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.container_second{
+
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	grid-gap: 16px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.girl5{
+	height: 600px;
+	padding-left: 80px;
+
+}
+
+.box-2{
+
+	height: 600px;
+	width: 600px;
+
+}
+
+.text-3{
+	font-family: 'Mindflora Benatio', sans-serif;
+	font-weight: bold;
+	font-size: 34px;
+	color: goldenrod;
+}
+
+.text-4{
+	font-family: arial;
+	text-align: justify;
+	padding: 20px;
+	font-size: 12px;
+}
+
+.FIRST_CONTENT {
+    width: 100vw;
+    height: 500px;
+    background-color: #71797E;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.caption {
+    color: white;
+    font-size: 120px;
+    font-family: 'Serandipity Boutique Serif', sans-serif;
+}
+
+.author_container {
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+.author_box {
+    height: 600px;
+    width: 600px;
+}
+
+.author-heading {
+    padding-top: 200px;
+    text-align: justify;
+    padding-bottom: 16px;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.author-text {
+    text-align: justify;
+    padding-bottom: 16px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.author-name {
+    font-family: 'Mindflora Benatio', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+.author {
+    height: 76vh;
+}
+
+
+.THIRD_CONTENT {
+    height: 600px;
+    width: auto;
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(cover2.jpeg);
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+.box-4 {
+    background-color: blue;
+    height: 190px;
+    width: 140px;
+    border: 1px solid goldenrod;
+}
+
+.pict {
+    height: 190px;
+    width: 140px;
+}
+
+
+.container_footer {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #708090;
+}
+
+.box-5 {
+    height: 400px;
+    width: 430px;
+    padding: 140px;
+}
+
+.head {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: goldenrod;
+    letter-spacing: 8px;
+}
+
+.details {
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.text6 {
+    font-family: 'Promises Gisttela Script', sans-serif;
+    font-size: 30px;
+}
